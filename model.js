@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 
 
 let horarioSchema = mongoose.Schema({
-	nombreLugar: { type : String },
+	nombrelugar: { type : String },
 	horario: { type : Number },
 	lugar: {type : String},
 	servicio: {type : String}
