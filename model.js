@@ -19,7 +19,7 @@ let horarioSchema = mongoose.Schema({
 // 				 required : true }
 // })
 
-let Vicepresidencia = mongoose.model( 'Prueba', horarioSchema );
+let Vicepresidencia = mongoose.model( 'prueba', horarioSchema );
 // let User = mongoose.model( 'User', userSchema );
 
 // let UserList = {
