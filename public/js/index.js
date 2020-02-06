@@ -1,6 +1,6 @@
 
 function init(){
-	let url = '/api/gastosVP';
+	let url = '/api/horario';
 	let settings = {
 		method: 'GET'
 	}

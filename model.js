@@ -4,17 +4,11 @@ let bcrypt = require('bcryptjs');
 mongoose.Promise = global.Promise;
 
 
-let vicepresidenciaSchema = mongoose.Schema({
-	vp: { type : String },
-	vpName: { type : String },
-	gastosjd19: { type: Number },
-	planjd19 : { type: Number },
-	varvsplan2019 : { type: Number},
-	gastosjd18 : { type: Number },
-	varvsplan2018 : { type: Number},
-	gastosjd14 : { type : Number },
-	varvsplan2014 : { type: Number}
-
+let horarioSchema = mongoose.Schema({
+	nombreLugar: { type : String },
+	horario: { type : Number },
+	lugar: {type : String},
+	servicio: {type : String}
 });
 
 // let userSchema = mongoose.Schema({
@@ -25,7 +19,7 @@ let vicepresidenciaSchema = mongoose.Schema({
 // 				 required : true }
 // })
 
-let Vicepresidencia = mongoose.model( 'Viajes', vicepresidenciaSchema );
+let Vicepresidencia = mongoose.model( 'Prueba', horarioSchema );
 // let User = mongoose.model( 'User', userSchema );
 
 // let UserList = {
