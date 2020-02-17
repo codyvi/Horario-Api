@@ -8,8 +8,8 @@ let horarioSchema = mongoose.Schema({
 	nombrelugar: { type : String },
 	horario: { type : String},
 	lugar: {type : String},
-	servicio: {type : String},
-	otros: {type : String},
+	apertura: {type : String},
+	cierre: {type : String},
 });
 
 // let userSchema = mongoose.Schema({
